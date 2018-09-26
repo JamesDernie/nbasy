@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nbasy
+Version: 0.0.1
+Summary: Package for getting player, team and game stats from stats.nba.com
+Home-page: https://github.com/JamesDernie/nbasy
+Author: James Dernie
+Author-email: jamesdernie@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU GPLv3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

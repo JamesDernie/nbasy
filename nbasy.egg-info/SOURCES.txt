@@ -1,0 +1,7 @@
+README.md
+setup.py
+nbasy/__init__.py
+nbasy.egg-info/PKG-INFO
+nbasy.egg-info/SOURCES.txt
+nbasy.egg-info/dependency_links.txt
+nbasy.egg-info/top_level.txt
