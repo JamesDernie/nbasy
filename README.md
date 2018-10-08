@@ -7,6 +7,8 @@ NBAsy is a lighweight package for retrieving player and team stats from stats.nb
 
 ### Installation
 
+(TODO) This package has not been uploaded to pip yet.  Download this repository to use.
+
 NBAsy may work on Python 2 but Python 3 is recommended.
 
 To install:
@@ -45,6 +47,7 @@ OrderedDict([(
 
         # Main/Common Stats
 
+        'GP': 72,                   # Games played
         'MIN': 35.4,                # Minutes / game
 
         'PTS': 30.4,                # Points/game
@@ -69,57 +72,61 @@ OrderedDict([(
 
         'NBA_FANTASY_PTS': 53.0     # Fantasy points / game
 
-
         # Ranks
+
         'AST_RANK': 4,              # Assists rank
         'BLK_RANK': 84,             # Blocks rank
         'BLKA_RANK': 3,             # Blocks against rank
         'DD2_RANK': 15,             # Double doubles rank
-
+        'DREB_RANK': 54,            # Defensive rebounds rank
+        'FG_PCT_RANK': 244,         # Field goal percentage rank
+        'FG3_PCT_RANK': 169,        # 3 point field goal percentage rank
         'FG3A_RANK': 1,             # 3 point shots attempted rank
-        'GP_RANK': 154,             # Games played rank
-
-        'L_RANK': 386,              # Game losses rank
-        'STL_RANK': 9,              # Steals rank
-
-        'OREB_RANK': 259,           # Offensive rebounds rank
+        'FG3M_RANK': 2,             # 3 point field goals made rank
+        'FGA_RANK': 2,              # Field goals attempted rank
         'FGM_RANK': 7,              # Field goals made rank
-        'PFD_RANK': 3,              # Personal fouls drawn rank
-
-
-
+        'FT_PCT_RANK': 78,          # Free throw percentage rank
+        'FTA_RANK': 1,              # Free throws attempted rank
+        'FTM_RANK': 1,              # Free throws made rank
+        'GP_RANK': 154,             # Games played rank
+        'L_RANK': 386,              # Game losses rank
         'MIN_RANK': 15,             # Minutes rank
-        'TD3_RANK': 5,
-        'TOV_RANK': 3,
-        'PTS_RANK': 1,
-        'PLUS_MINUS_RANK': 7,
-        'FG3M_RANK': 2,
-        'DREB_RANK': 54,
-        'FTA_RANK': 1,
-        'W_PCT_RANK': 17,
-
-        'FG_PCT_RANK': 244,
-
-        'FG3_PCT_RANK': 169,
-        'FT_PCT_RANK': 78,
-        'NBA_FANTASY_PTS_RANK': 5,
-        'PF_RANK': 92,
-        'FTM_RANK': 1,
-        'FGA_RANK': 2,
-        'W_RANK': 3,
-        'REB_RANK': 85,
+        'NBA_FANTASY_PTS_RANK': 5,  # NBA fantasy points rank
+        'OREB_RANK': 259,           # Offensive rebounds rank
+        'PF_RANK': 92,              # Personal fouls rank
+        'PFD_RANK': 3,              # Personal fouls drawn rank
+        'PLUS_MINUS_RANK': 7,       # Plus minus rank
+        'PTS_RANK': 1,              # Points / game rank
+        'REB_RANK': 85,             # Rebounds rank
+        'STL_RANK': 9,              # Steals rank
+        'TD3_RANK': 5,              # Triple doubles rank
+        'TOV_RANK': 3,              # Turnovers rank
+        'W_PCT_RANK': 17,           # Win percentage rank
+        'W_RANK': 3,                # Wins rank
 
 
+        # Team Details
 
-        'TEAM_ID': 1610612745,
+        'TEAM_ABBREVIATION': 'HOU', # 3 letter team code
+        'TEAM_ID': 1610612745,      # NBA api team id
+
+        # Player
+
+        'AGE': 28.0,                # Player age
+        'PLAYER_ID': 201935,        # NBA api player id
+
+        # Games
+
+
+
         'L': 13,
         'FG3M': 3.7,
-        'PLAYER_ID': 201935,
+
         'BLKA': 1.4,
         'CFID': 5,
         'FG3_PCT': 0.367,
 
-        'TEAM_ABBREVIATION': 'HOU',
+
         'PLUS_MINUS': 7.3,
 
 
@@ -131,15 +138,8 @@ OrderedDict([(
         'PFD': 7.0,
 
         'W': 59,
-        'GP': 72,
-
-        'AGE': 28.0,
-
         'PF': 2.3,
-
         'FG3A': 10.0,
-        'STL': 1.8,
-
         'TD3': 4,
     }
 )])
